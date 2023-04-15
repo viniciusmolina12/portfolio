@@ -1,0 +1,71 @@
+:root {
+  font-family: 'Just Me Again Down Here', cursive;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 96px;
+  line-height: 0px;
+}
+ 
+h3 {
+  line-height: 10px;
+  font-size: 36px;
+}
+.main-section {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.main-section h4 {
+  font-size: 48px;
+  text-align: center;
+}
+
+.main-section section .post-it {
+  text-align: left;
+  position: relative;
+  width: 338px;
+  height: 355px;
+  box-shadow: 6px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.yellow {
+  background-color: #ABAE17;
+}
+
+.blue {
+  background-color: #174A98;
+}
+
+.red {
+  background-color: #A90A0A;
+}
+
+.more {
+  background-color: red;
+  border-radius: 10px 40px;
+  padding-bottom: 5px;  
+}
+li {
+  list-style-type: none;
+  font-size: 40px;
+}
